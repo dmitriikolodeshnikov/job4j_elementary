@@ -13,7 +13,6 @@ public class SimpleStringEncoder {
                 result = result + symbol + (counter > 1 ? counter : "");
                 symbol = input.charAt(i);
                 counter = 1;
-
             }
         }
         return result + symbol + (counter > 1 ? counter : "");
